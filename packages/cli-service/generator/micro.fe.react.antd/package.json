@@ -1,7 +1,24 @@
 {
-  "scripts": {},
-  "dependencies": {},
-  "devDependencies": {},
+  "name": "react16-app",
+  "version": "0.1.0",
+  "private": true,
+  "description": "在这上面的都要被删除",
+  "scripts": {
+    "start": "rescripts start",
+    "build": "rescripts build",
+    "test": "rescripts test",
+    "eject": "rescripts eject"
+  },
+  "dependencies": {
+    "antd": "^4.15.3",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "react-router-dom": "^5.1.2"
+  },
+  "devDependencies": {
+    "@rescripts/cli": "^0.0.14",
+    "react-scripts": "^3.4.1"
+  },
   "eslintConfig": {
     "root": true,
     "env": {
