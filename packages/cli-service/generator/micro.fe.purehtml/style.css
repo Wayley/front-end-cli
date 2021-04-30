@@ -1,0 +1,77 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+a {
+  text-decoration: none; /* 去除默认的下划线 */
+  outline: none; /* 去除旧版浏览器的点击后的外虚线框 */
+  color: #000; /* 去除默认的颜色和点击后变化的颜色 */
+}
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+#purehtml-app {
+  display: flex;
+  height: 100%;
+}
+.purehtml-side {
+  width: 280px;
+  background-color: #eee;
+}
+.purehtml-wrapper {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+.purehtml-header {
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 1px solid #ccc;
+}
+.purehtml-container {
+  flex: 1;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+}
+.purehtml-logo {
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  color: blueviolet;
+}
+.purehtml-menu {
+  padding: 20px 0px;
+}
+.purehtml-menu-item {
+  display: block;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  padding-left: 20px;
+}
+.purehtml-menu-item + .purehtml-menu-item {
+  margin-top: 10px;
+}
+.purehtml-menu-item:hover {
+  color: blueviolet;
+}
+.purehtml-menu-item.active {
+  color: blueviolet;
+  background-color: #fff;
+}
+.purehtml-welcome {
+  margin: 20px;
+}
+.purehtml-container span {
+  color: blueviolet;
+}

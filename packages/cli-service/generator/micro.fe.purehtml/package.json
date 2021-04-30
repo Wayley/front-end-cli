@@ -1,7 +1,17 @@
 {
-  "scripts": {},
+  "name": "purehtml",
+  "version": "1.0.0",
+  "description": "在我这以上的都要删除",
+  "main": "index.html",
+  "scripts": {
+    "start": "cross-env PORT=8081 http-server . --cors",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
   "dependencies": {},
-  "devDependencies": {},
+  "devDependencies": {
+    "cross-env": "^7.0.2",
+    "http-server": "^0.12.1"
+  },
   "eslintConfig": {
     "root": true,
     "env": {
